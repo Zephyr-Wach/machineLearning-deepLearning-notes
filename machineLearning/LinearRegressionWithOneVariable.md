@@ -28,7 +28,7 @@ $$
 - $x$：自变量（特征）  
 - $y$：因变量（目标/标签）  
 - $\theta_0$：截距（bias）  
-- $\theta_1$：斜率（权重）  
+- $ \theta_1 $：斜率（权重）  
 - $\epsilon$：误差项（噪声）  
 
 > **目标**：通过训练找到最佳参数 $\theta_0$ 和 $\theta_1$，
@@ -198,3 +198,6 @@ $$\theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}$$
 > 模型截距（$b_0$）： 6.711672731845184
 > 
 > 预测 150 平方米的房价约为 154.48 万元
+
+---
+[上一章](./linearRegression.md) --- [下一章](./LinearRegressionWithMultipleVariables.md)

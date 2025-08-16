@@ -4,6 +4,11 @@
 
 学习内容主要参考 [loveunk 的机器学习与深度学习笔记](https://github.com/loveunk/machine-learning-deep-learning-notes)，具体包括：
 
+> 由于在github的行内公式支持不够，有的地方可能会有些突兀
+>
+> 块级公式：```$$ ... $$``` → GitHub 支持，会正常渲染。
+>
+> 行内公式：```$ ... $``` → GitHub 不支持，会当成普通字符显示。
 ___
 
 ## 前置基础
