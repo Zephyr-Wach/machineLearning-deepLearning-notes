@@ -114,7 +114,7 @@ $J$。它就像一个“平均错误分数”。
 
 > $$\theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}, \quad j=0,1$$
 
-$$  \theta_j  $$：待优化的参数（如模型中的 $  \theta_0, \theta_1  $）
+$$  \theta_j  $$ ：待优化的参数（如模型中的 $  \theta_0, \theta_1  $）
 
 $  \alpha  $：学习率，控制每次调整的步长
 
