@@ -116,7 +116,7 @@ $J$。它就像一个“平均错误分数”。
 
 $  \theta_j  $：待优化的参数（如模型中的 $  \theta_0, \theta_1  $）
 
-`$  \alpha  $`：学习率，控制每次调整的步长
+$  \alpha  $：学习率，控制每次调整的步长
 
 $  \frac{\partial J}{\partial \theta_j}  $：
 代价函数 $  J  $ 对参数 $  \theta_j  $ 的偏导数，指示误差变化方向
