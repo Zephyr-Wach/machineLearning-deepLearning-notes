@@ -114,9 +114,9 @@ $J$。它就像一个“平均错误分数”。
 
 > $$\theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}, \quad j=0,1$$
 
-$$  \theta_j  $$ ：待优化的参数（如模型中的 $  \theta_0, \theta_1  $）
+$  \theta_j  $：待优化的参数（如模型中的 $  \theta_0, \theta_1  $）
 
-$  \alpha  $：学习率，控制每次调整的步长
+`$  \alpha  $`：学习率，控制每次调整的步长
 
 $  \frac{\partial J}{\partial \theta_j}  $：
 代价函数 $  J  $ 对参数 $  \theta_j  $ 的偏导数，指示误差变化方向
@@ -129,10 +129,12 @@ $  \frac{\partial J}{\partial \theta_j}  $：
 2.梯度概念： 在数学中，函数的梯度（所有偏导数的向量）指向函数值增加最快的方向。
 所以这里
 $$J(\theta_0, \theta_1) = \frac{1}{2m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^2$$
-对$$\theta_j$$求偏导，得到
+对$\theta_j$求偏导，得到
+
 $$  \frac{\partial J}{\partial \theta_0} = \frac{1}{m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})  $$
 
 $$  \frac{\partial J}{\partial \theta_1} = \frac{1}{m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)}) x^{(i)}  $$
+
 这些偏导数构成了梯度向量，指示 $J$ 增加最快的方向。
 再看一下梯度概念： 
 函数的梯度 $[\frac{\partial J}{\partial \theta_0}, \frac{\partial J}{\partial \theta_1}]$ 
