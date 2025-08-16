@@ -17,8 +17,9 @@
 
 其中 $b_i$ 为回归系数，$\varepsilon$ 为误差项。
 
-**图示版本：**
-![图示版本](./images/linearRegression.png)
+**图示：**
+
+<img src="./images/linearRegression.png" alt="图示" style="width: 90%; max-width: 600px; min-width: 300px;">
 
 **总结：**  
 线性回归用线性方程预测一个或多个因变量的数值。
