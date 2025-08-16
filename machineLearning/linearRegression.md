@@ -20,9 +20,9 @@
 > 注：误差 $\varepsilon$ 表示实际值与模型预测值之间的差值。在单变量 $ y = b_0 + b_1 x $ 和多变量 $ y = b_0 + b_1 x_1 + b_2 x_2 + \dots + b_n x_n $ 公式中，$\varepsilon$ 未显式写出，但它隐含在模型中。误差反映了数据中的随机性或未被模型解释的部分，主要来源于测量误差或非线性因素。
 
 **图示：**
-
-<img src="./images/linearRegression.png" alt="图示" style="width: 90%; max-width: 600px; min-width: 300px;">
-
+<div align="center">
+    <img src="./images/linearRegression.png" alt="图示" style="width: 90%; max-width: 600px; min-width: 300px;">
+</div>
 **总结：**  
 线性回归用线性方程预测一个或多个因变量的数值。
 
