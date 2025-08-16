@@ -143,7 +143,7 @@ $$  \frac{\partial J}{\partial \theta_1} = \frac{1}{m} \sum_{i=1}^m (\hat{y}^{(i
 接下来的目标： 每次迭代调整 $\theta_0$ 和 $\theta_1$，使 $J$ 减小
 
 > 通俗解释： 想象下山，要求得的最低值便是到山脚。
-> $[\frac{\partial J}{\partial \theta_0}, \frac{\partial J}{\partial \theta_1}]$ 告诉你最快的方向；
+> $[\frac{\partial J}{\partial \theta_0}, \frac{\partial J}{\partial \theta_1}]$ 告诉你上坡最快的方向，所以下山要沿负梯度方向走；
 > $\frac{\partial J}{\partial \theta_j}$ 告诉你坡度，
 > $\alpha$ 像你迈的步子大小。步子太小（$\alpha$ 小），下山慢；
 > 步子太大（$\alpha$ 大），可能跳过谷底摔下去。
