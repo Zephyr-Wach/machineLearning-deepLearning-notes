@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
-# 设置中文字体（Windows用 SimHei，Mac/Linux可以用 PingFang/Arial Unicode/MSYH 等）
-plt.rcParams['font.sans-serif'] = ['SimHei']   # 黑体
+# 设置中文字体（Windows用 SimHei，Mac可以用 Songti SC）
+plt.rcParams['font.sans-serif'] = ['Songti SC']
 plt.rcParams['axes.unicode_minus'] = False     # 解决负号显示成方块
 
 # 1. 读取数据
