@@ -4,7 +4,7 @@
 
 学习内容主要参考 [loveunk 的机器学习与深度学习笔记](https://github.com/loveunk/machine-learning-deep-learning-notes)，具体包括：
 
-> 由于在github的行内公式支持不够，有的地方可能会有些突兀
+> 由于在github的行内公式支持不够，有的地方可能会有些突兀，可以在[我的博客网站](http://mpbs.tech/gather/note/4)查看，我已做适配
 >
 > 块级公式：```$$ ... $$``` → GitHub 支持，会正常渲染。
 >
