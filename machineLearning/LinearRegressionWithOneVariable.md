@@ -7,7 +7,7 @@
 ---
 
 这部分结合一个房价随房子大小的[数据集](./dateSet/priceBySize_dataset.csv)来理解，
-数据都是又grok生成，类似这样
+数据都是由grok生成，类似这样
 
 | 房子大小（sqm）          | 房价（万）       |
 |--------------------|-------------|
@@ -165,7 +165,7 @@ $$\theta_j := \theta_j + (-\alpha \frac{\partial J}{\partial \theta_j})$$
 $$\theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}$$
 
 - 适用所有 $\theta_j$： 公式对 $j=0,1$ 通用，故写作 $\theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}, \quad j=0,1$。
-
+- 有效的 α 是可以让 $\theta_j$ 随着迭代不断变小。但太小的 α 会导致收敛的很慢。
 
 > 这里在[loveunk 的机器学习与深度学习笔记](https://github.com/loveunk/machine-learning-deep-learning-notes)
 > 中提到了一个问题：

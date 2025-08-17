@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # 设置中文字体（Windows用 SimHei，Mac可以用 Songti SC）
 plt.rcParams['font.sans-serif'] = ['Songti SC']
-plt.rcParams['axes.unicode_minus'] = False     # 解决负号显示成方块
+plt.rcParams['axes.unicode_minus'] = False
 
 # 1. 读取数据
 data = pd.read_csv("../dateSet/priceBySize_dataset.csv")
