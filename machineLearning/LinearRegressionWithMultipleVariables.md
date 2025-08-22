@@ -2,7 +2,7 @@
 
 多变量线性回归用于预测一个连续变量（目标）与多个特征（自变量）之间的线性关系。它是机器学习中基础的回归方法之一，能够捕捉多个因素对目标变量的综合影响。
 
-[上一章](./LinearRegressionWithOneVariable.md) --- [下一章]()
+[上一章](./LinearRegressionWithOneVariable.md) --- [下一章](./logisticRegression.md)
 
 ---
 
@@ -478,4 +478,6 @@ def gradient_descent(X, y, lr0=0.1, decay=0.001, n_iter=1000):
     <img src="./images/example_UnivariateMutiUlR.png" alt="图示" style="width: 90%; max-width: 600px; min-width: 300px;">
 </div>
 
-[上一章](./LinearRegressionWithOneVariable.md) --- [下一章]()
+---
+
+[上一章](./LinearRegressionWithOneVariable.md) --- [下一章](./logisticRegression.md)
