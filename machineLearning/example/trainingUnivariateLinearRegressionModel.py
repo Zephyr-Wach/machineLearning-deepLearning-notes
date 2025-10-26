@@ -7,7 +7,7 @@ plt.rcParams['font.sans-serif'] = ['Songti SC']
 plt.rcParams['axes.unicode_minus'] = False
 
 # 1. 读取数据
-data = pd.read_csv("../dateSet/priceBySize_dataset.csv")
+data = pd.read_csv("../dataSet/priceBySize_dataset.csv")
 
 # 2. 准备特征和标签
 X = data[["Size_sqm"]]   # 面积 (二维)

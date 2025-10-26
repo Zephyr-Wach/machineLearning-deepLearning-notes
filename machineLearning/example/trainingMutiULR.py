@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['Songti SC']
 plt.rcParams['axes.unicode_minus'] = False
 
-data = pd.read_csv('../dateSet/priceBymultiLinear-dataset.csv')
+data = pd.read_csv('../dataSet/priceBymultiLinear-dataset.csv')
 X = data[['Size_sqm', 'floor', 'age_years', 'Distance_km']].values
 y = data['Price_wan'].values.reshape(-1, 1)
 
