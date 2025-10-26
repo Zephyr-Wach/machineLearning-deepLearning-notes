@@ -34,6 +34,4 @@ ___
 
 ___
 
-### 🤖 [机器学习算法](machineLearning/1.README.md)
-
-### 🧠 [深度学习算法](deepLearning/1.README.md)
+### 🤖 [传统机器学习算法](traditional_machine_learning/1.README.md)
